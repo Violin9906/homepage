@@ -1,0 +1,110 @@
+<template>
+  <div class="aboutMe">
+    <h3>/* TECHNOLOGY STACK */</h3>
+    <ul>
+      <li>
+        C
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        JavaScript
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        Vue.js
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        PHP
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        Express.js
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        C++
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+      <li>
+        Node.js
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'AboutMe'
+}
+</script>
+
+<style scoped lang="less">
+h3 {
+  margin: 40px 0 0;
+  font-family: Courier, monospace;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-family: Courier, monospace;
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+a {
+  color: #6699ff;
+}
+
+.progress {
+  width: 50vw;
+  margin: 0 25vw;
+  height: 5px;
+}
+
+@media screen and (max-width:576px){
+  .progress {
+    width: 100%;
+    margin: 0 0;
+  }
+}
+
+.progress .progress-bar {
+  animation: animate-positive 2s;
+}
+
+@-webkit-keyframes animate-positive{
+  0% { width: 0; }
+}
+@keyframes animate-positive{
+  0% { width: 0; }
+}
+
+</style>
