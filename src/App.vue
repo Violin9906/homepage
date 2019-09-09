@@ -5,6 +5,8 @@
       |
       <router-link to="/program">C Programming</router-link>
       |
+      <router-link to="/astronomy">Astronomy</router-link>
+      |
       <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>

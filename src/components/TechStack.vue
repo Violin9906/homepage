@@ -51,6 +51,13 @@
                aria-valuemax="100"></div>
         </div>
       </li>
+      <li>
+        Python
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
     </ul>
 
   </div>
