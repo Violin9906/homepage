@@ -4,7 +4,7 @@
     <div class="projectDetail">
       [{<br>
       "name": "<a href="//ustcaaa.club">ustcaaa.club</a>",<br>
-      "description": "A website for USTC's Association of Amateur Astronomers.",<br>
+      "description": "A website for Association of Amateur Astronomers of USTC.",<br>
       "state": "<span class="text-success">complete</span>",<br>
       "repository": "<a href="//github.com/Violin9906/ustcaaa">Violin9906/ustcaaa</a>"<br>
       },{<br>
@@ -31,14 +31,7 @@ export default {
 <style scoped lang="less">
 h3 {
   margin: 40px 0 0;
-  font-family: Courier, monospace;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  margin: 20px 10px;
+  font-family: "Courier New", monospace;
 }
 a {
   color: #6699ff;
@@ -48,7 +41,8 @@ a {
   margin-right: 1vw;
 }
 .projectDetail {
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   font-size: medium;
+  margin: 20px 5px;
 }
 </style>
