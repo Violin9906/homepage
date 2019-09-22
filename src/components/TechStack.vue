@@ -51,6 +51,13 @@
                aria-valuemax="100"></div>
         </div>
       </li>
+      <li>
+        Python
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"
+               aria-valuemax="100"></div>
+        </div>
+      </li>
     </ul>
 
   </div>
@@ -65,7 +72,7 @@ export default {
 <style scoped lang="less">
 h3 {
   margin: 40px 0 0;
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
 }
 
 ul {
@@ -74,7 +81,7 @@ ul {
 }
 
 li {
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   font-size: 20px;
   margin: 20px 10px;
 }

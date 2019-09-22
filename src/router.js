@@ -23,6 +23,15 @@ export default new Router({
       component: () => import(/* webpackChunkName: "program" */ './views/Program.vue')
     },
     {
+      path: '/astronomy',
+      name: 'astronomy',
+      component: () => import(/* webpackChunkName: "astronomy" */ './views/Astronomy.vue')
+    },{
+      path: '/pcb',
+      name: 'pcb',
+      component: () => import(/* webpackChunkName: "pcb" */ './views/PCB.vue')
+    },
+    {
       path: '*',
       name: 'notFound',
       component: NotFound

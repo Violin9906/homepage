@@ -5,6 +5,10 @@
       |
       <router-link to="/program">C Programming</router-link>
       |
+      <router-link to="/astronomy">Astronomy</router-link>
+      |
+      <router-link to="/pcb">Altium Designer</router-link>
+      |
       <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>
@@ -70,6 +74,7 @@
           </a>
         </li>
       </ul>
+      <div class="copyright">DESIGNED BY VIOLIN</div>
     </div>
   </div>
 </template>
@@ -105,5 +110,10 @@
 #footer ul li {
   display: inline-flex;
   margin: 0 10px;
+}
+
+.copyright {
+  font-family: "Courier New", monospace;
+  font-weight: lighter;
 }
 </style>

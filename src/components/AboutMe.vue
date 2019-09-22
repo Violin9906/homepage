@@ -22,7 +22,7 @@ export default {
 <style scoped lang="less">
 h3 {
   margin: 40px 0 0;
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
 }
 ul {
   list-style-type: none;

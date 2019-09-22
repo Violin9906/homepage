@@ -20,14 +20,14 @@
 
 <style scoped lang="less">
 h2 {
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
 }
 ul {
   list-style-type: none;
   padding: 0;
 }
 li {
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   margin: 20px 10px;
 }
 </style>
