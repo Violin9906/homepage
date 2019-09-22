@@ -72,7 +72,7 @@ export default {
 <style scoped lang="less">
 h3 {
   margin: 40px 0 0;
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
 }
 
 ul {
@@ -81,7 +81,7 @@ ul {
 }
 
 li {
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   font-size: 20px;
   margin: 20px 10px;
 }
