@@ -4,6 +4,7 @@
     <sub>
       A STORY OF NIGHT SKY AND ME
     </sub>
+    <hr>
 
     <div class="section">
       <h3>/* PREFACE */</h3>
@@ -57,6 +58,13 @@
 }
 
 .section {
+  margin: auto 20vw;
+  width: 60vw;
+  @media screen and (max-width:576px){
+    width: auto;
+    margin: auto 2vw;
+  }
+
   h3 {
     margin: 40px 0 0;
     font-family: "Courier New", monospace;

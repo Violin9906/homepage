@@ -76,6 +76,7 @@
       <h3>/* LINKS */</h3>
       <ul>
         <li><a href="//www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">GNU C Reference</a></li>
+        <li><a href="//blog.csdn.net/bat67/article/details/76095813">Visual Studio Code配置C/C++环境</a></li>
       </ul>
     </div>
   </div>
@@ -89,7 +90,12 @@
 }
 
 .section {
-  margin: auto 5px;
+  margin: auto 20vw;
+  width: 60vw;
+  @media screen and (max-width:576px){
+    width: auto;
+    margin: auto 2vw;
+  }
 
   h3 {
     margin: 40px 0 0;
