@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h2>王若麟的个人主页</h2>
+    <hr>
     <AboutMe></AboutMe>
     <TechStack></TechStack>
     <MyProjects></MyProjects>

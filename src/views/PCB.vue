@@ -1,6 +1,7 @@
 <template>
   <div class="pcb">
     <h2>使用Altium Designer设计PCB</h2>
+    <hr>
 
     <div class="section">
       <h3>/* LINKS */</h3>
