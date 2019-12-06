@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "12.13.1"
+addons:
+  apt:
+    update: true
 
 jobs:
   include:
@@ -18,4 +21,5 @@ jobs:
       script:
         - "yarn run build"
       after_success:
-        - lftp -e "mirror -R ./dist/ ~/public_html && bye" -u $FTP_USER,$FTP_PASSWD 202.38.64.10
+        - ping home.ustc.edu.cn -c 4
+        - lftp -e "mirror -R ./dist/ ~/public_html && bye" -u $FTP_USER,$FTP_PASSWD home.ustc.edu.cn
