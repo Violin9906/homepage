@@ -18,4 +18,4 @@ jobs:
       script:
         - "yarn run build"
       after_success:
-        - lftp -e "mirror -R ./dist/ ~/public_html && bye" -u $FTP_USER,$FTP_PASSWD home.ustc.edu.cn
+        - lftp -e "mirror -R ./dist/ ~/public_html && bye" -u $FTP_USER,$FTP_PASSWD 202.38.64.10
