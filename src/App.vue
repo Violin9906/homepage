@@ -7,8 +7,6 @@
       |
       <router-link to="/astronomy">Astronomy</router-link>
       |
-      <router-link to="/pcb">Altium Designer</router-link>
-      |
       <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>
