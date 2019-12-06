@@ -1,9 +1,6 @@
 language: node_js
 node_js:
   - "12.13.1"
-addons:
-  apt:
-    update: true
 
 jobs:
   include:
@@ -14,12 +11,16 @@ jobs:
       script:
         - "yarn run build"
     - if: branch = master
-      before_install:
-        - sudo apt-get -y install lftp
       install:
         - "yarn install"
       script:
         - "yarn run build"
-      after_success:
-        - ping home.ustc.edu.cn -c 4
-        - lftp -e 'set dns:order "inet inet6" && mirror -R ./dist/ ~/public_html && bye' -u $FTP_USER,$FTP_PASSWD home.ustc.edu.cn
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_TOKEN
+        target_branch: gh-pages
+        local_dir: ./dist
+        keep_history: true
+        on:
+          branch: master
