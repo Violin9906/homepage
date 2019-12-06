@@ -26,7 +26,7 @@ export default new Router({
       path: '/astronomy',
       name: 'astronomy',
       component: () => import(/* webpackChunkName: "astronomy" */ './views/Astronomy.vue')
-    },{
+    }, {
       path: '/pcb',
       name: 'pcb',
       component: () => import(/* webpackChunkName: "pcb" */ './views/PCB.vue')
