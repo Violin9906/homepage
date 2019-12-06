@@ -10,11 +10,7 @@ jobs:
       install:
         - "yarn install"
       script:
-        - "yarn run lint"
-      after_success:
-        - git add -A
-        - git commit -m "Autolint $TRAVIS_BUILD_ID"
-        - git push --set-upstream origin dev-lint-$TRAVIS_BUILD_ID
+        - "yarn run build"
     - if: branch = master
       install:
         - "yarn install"
