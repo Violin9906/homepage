@@ -5,9 +5,24 @@
       <li>王若麟</li>
       <li>中国科学技术大学 化学物理系转自动化系 PB1703</li>
       <li>现任中国科大学生天文爱好者协会会长</li>
-      <li><span class="badge badge-dark">钢琴</span> <span class="badge badge-dark">前端</span> <span class="badge badge-dark">看星星</span></li>
-      <li><span class="badge badge-dark"><del>Overwatch</del></span> <span class="badge badge-dark">Minecraft</span> <span class="badge badge-dark">Kerbal Space Program</span> <span class="badge badge-dark">Arknights</span></li>
-      <li><span class="badge badge-dark">SOLO</span></li>
+      <li>
+        <span class="badge badge-dark">钢琴</span>
+        <span class="badge badge-dark">前端</span>
+        <span class="badge badge-dark">看星星</span>
+      </li>
+      <li>
+        <span class="badge badge-dark">
+          <del>Overwatch</del>
+        </span>
+        <span class="badge badge-dark">Minecraft</span>
+        <span class="badge badge-dark">Kerbal Space Program</span>
+        <span class="badge badge-dark">
+          <del>Arknights</del>
+        </span>
+      </li>
+      <li>
+        <span class="badge badge-dark">SOLO</span>
+      </li>
     </ul>
   </div>
 </template>
