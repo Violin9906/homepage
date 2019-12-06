@@ -5,9 +5,10 @@ node_js:
 jobs:
   include:
     - if: branch = dev
+      befor_install:
+        - git checkout -b dev-lint-$TRAVIS_BUILD_ID
       install:
         - "yarn install"
-
       script:
         - "yarn run build"
     - if: branch = master
