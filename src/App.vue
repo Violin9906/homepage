@@ -13,6 +13,7 @@
     <hr>
     <div id="footer">
       <ul>
+        <!--
         <li>
           <a href="//user.qzone.qq.com/2423431728">
             <svg t="1567931550471" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@
             </svg>
           </a>
         </li>
+        -->
         <li>
           <a href="//github.com/Violin9906">
             <svg t="1567931985956" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +68,7 @@
           </a>
         </li>
       </ul>
-      <div class="copyright">DESIGNED BY VIOLIN</div>
+      <div class="footnote">DESIGNED BY VIOLIN | POWERED BY VUE.JS</div>
     </div>
   </div>
 </template>
@@ -104,7 +106,7 @@
   margin: 0 10px;
 }
 
-.copyright {
+.footnote {
   font-family: "Courier New", monospace;
   font-weight: lighter;
 }

@@ -16,9 +16,7 @@
         </span>
         <span class="badge badge-dark">Minecraft</span>
         <span class="badge badge-dark">Kerbal Space Program</span>
-        <span class="badge badge-dark">
-          <del>Arknights</del>
-        </span>
+        <span class="badge badge-dark">Arknights</span>
       </li>
       <li>
         <span class="badge badge-dark">SOLO</span>
