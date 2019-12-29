@@ -69,7 +69,10 @@
       <div class="footnote">
         DESIGNED BY VIOLIN | POWERED BY VUE.JS<br />
         Copyright&copy;王若麟 2019 All rights reserved.
-        </div>
+      </div>
+      <div>
+        <img src="./assets/USTC_logo.svg" style="position:fixed;bottom:-300px;left:-200px;opacity:0.1;z-index:-100"/>
+      </div>
     </div>
   </div>
 </template>
