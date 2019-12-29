@@ -2,7 +2,7 @@
   <div class="astronomy">
     <h2>Orion</h2>
     <sub>
-      A STORY OF NIGHT SKY AND ME
+      A STORY OF THE NIGHT SKY AND ME
     </sub>
     <hr>
 

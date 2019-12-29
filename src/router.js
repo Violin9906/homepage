@@ -18,11 +18,6 @@ export default new Router({
       component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
     },
     {
-      path: '/program',
-      name: 'program',
-      component: () => import(/* webpackChunkName: "program" */ './views/Program.vue')
-    },
-    {
       path: '/astronomy',
       name: 'astronomy',
       component: () => import(/* webpackChunkName: "astronomy" */ './views/Astronomy.vue')
