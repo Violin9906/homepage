@@ -3,8 +3,6 @@
     <div id="nav">
       <router-link to="/">Home</router-link>
       |
-      <router-link to="/program">C Programming</router-link>
-      |
       <router-link to="/astronomy">Astronomy</router-link>
       |
       <router-link to="/contact">Contact</router-link>
@@ -68,7 +66,10 @@
           </a>
         </li>
       </ul>
-      <div class="footnote">DESIGNED BY VIOLIN | POWERED BY VUE.JS</div>
+      <div class="footnote">
+        DESIGNED BY VIOLIN | POWERED BY VUE.JS<br />
+        Copyright&copy;王若麟 2019 All rights reserved.
+        </div>
     </div>
   </div>
 </template>

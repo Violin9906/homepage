@@ -1,5 +1,7 @@
 # homepage
 
+> Copyright&copy;王若麟 2019 All rights reserved.
+
 ## Project setup
 ```
 yarn install
