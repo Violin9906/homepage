@@ -4,19 +4,19 @@
     <div class="projectDetail">
       [{<br>
       "name": "<a href="//ustcaaa.club">ustcaaa.club</a>",<br>
-      "description": "A website for Association of Amateur Astronomers of USTC.",<br>
+      "description": "Website for Association of Amateur Astronomers of USTC.",<br>
       "state": "<span class="text-success">complete</span>",<br>
       "repository": "<a href="//github.com/Violin9906/ustcaaa">Violin9906/ustcaaa</a>"<br>
       },
       {<br>
-      "name": "USTCAAA_Website",<br>
-      "description": "A new website for Association of Amateur Astronomers of USTC.",<br>
+      "name": "USTCAAA2",<br>
+      "description": "New website for Association of Amateur Astronomers of USTC.",<br>
       "state": "<span class="text-warning">developing</span>",<br>
-      "repository": "<a href="//git.lug.ustc.edu.cn/violinwang/ustcaaa">violinwang/ustcaaa</a>"<br>
+      "repository": "<a href="//github.com/Violin9906/ustcaaa2">Violin9906/ustcaaa2</a>"<br>
       },
       {<br>
       "name": "<a href="//violin9906.github.io/phex">PHEX</a>",<br>
-      "description: "Auto Calculator for USTC Physics Experiments.",<br>
+      "description: "USTC Physics Experiments Auto Calculator.",<br>
       "state": "<span class="text-warning">developing</span>",<br>
       "repository": "<a href="//github.com/Violin9906/phex">Violin9906/phex</a>"<br>
       },

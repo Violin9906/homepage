@@ -2,7 +2,6 @@
   <div class="aboutMe">
     <h3>/* ABOUT ME */</h3>
     <ul>
-      <li>王若麟</li>
       <li>中国科学技术大学 化学物理系转自动化系 1710</li>
       <li>现任中国科大学生天文爱好者协会会长</li>
       <li>
