@@ -143,6 +143,10 @@ a {
   height: 5px;
 }
 
+.progress-bar {
+  background-color: #6699ff;
+}
+
 @media screen and (max-width: 576px) {
   .progress {
     width: 100%;
