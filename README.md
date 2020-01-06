@@ -1,6 +1,6 @@
 # homepage
 
-> Copyright&copy;王若麟 2019 All rights reserved.
+> Copyright &copy; 2019 王若麟, All rights reserved.
 
 ## Project setup
 ```
