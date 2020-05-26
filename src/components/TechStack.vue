@@ -8,8 +8,8 @@
           <div
             class="progress-bar"
             role="progressbar"
-            style="width: 80%"
-            aria-valuenow="80"
+            style="width: 90%"
+            aria-valuenow="90"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
@@ -34,8 +34,8 @@
           <div
             class="progress-bar"
             role="progressbar"
-            style="width: 50%"
-            aria-valuenow="50"
+            style="width: 55%"
+            aria-valuenow="55"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
@@ -47,8 +47,21 @@
           <div
             class="progress-bar"
             role="progressbar"
+            style="width: 50%"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </li>
+      <li>
+        8051 Assembly
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
             style="width: 40%"
-            aria-valuenow="20"
+            aria-valuenow="40"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
@@ -99,8 +112,8 @@
           <div
             class="progress-bar"
             role="progressbar"
-            style="width: 10%"
-            aria-valuenow="10"
+            style="width: 20%"
+            aria-valuenow="20"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
