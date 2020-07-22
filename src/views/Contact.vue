@@ -11,9 +11,6 @@
       <li>
         QQ: 2423431728
       </li>
-      <li>
-        <a href="//home.ustc.edu.cn/~violinwang/donate">DONATE ME</a>
-      </li>
     </ul>
   </div>
 </template>

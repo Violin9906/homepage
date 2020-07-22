@@ -3,10 +3,10 @@
     <h3>/* MY PROJECTS */</h3>
     <div class="projectDetail">
       [{<br>
-      "name": "USTCAAA",<br>
-      "description": "Website for Association of Amateur Astronomers of USTC.",<br>
-      "state": "<span class="text-success">complete</span>",<br>
-      "repository": "<a href="//github.com/Violin9906/ustcaaa">Violin9906/ustcaaa</a>"<br>
+      "name": "My-IME2",<br>
+      "description": "A Shuangpin IME for Chrome OS.",<br>
+      "state": "<span class="text-warning">developing</span>",<br>
+      "repository": "<a href="//github.com/Violin9906/my-ime2">Violin9906/my-ime2</a>"<br>
       },
       {<br>
       "name": "USTCAAA2",<br>
@@ -21,16 +21,16 @@
       "repository": "<a href="//github.com/Violin9906/phex">Violin9906/phex</a>"<br>
       },
       {<br>
+      "name": "USTCAAA",<br>
+      "description": "Website for Association of Amateur Astronomers of USTC.",<br>
+      "state": "<span class="text-success">complete</span>",<br>
+      "repository": "<a href="//github.com/Violin9906/ustcaaa">Violin9906/ustcaaa</a>"<br>
+      },
+      {<br>
       "name": "My-IME",<br>
       "description": "A simple Shuangpin IME for Chrome OS, based on Baidu Cloud Input API.",<br>
       "state": "<span class="text-danger">abandoned</span>",<br>
       "repository": "<a href="//github.com/Violin9906/my-ime">Violin9906/my-ime</a>"<br>
-      },
-      {<br>
-      "name": "My-IME2",<br>
-      "description": "A Shuangpin IME for Chrome OS.",<br>
-      "state": "<span class="text-warning">developing</span>",<br>
-      "repository": "<a href="//github.com/Violin9906/my-ime2">Violin9906/my-ime2</a>"<br>
       }]
     </div>
   </div>

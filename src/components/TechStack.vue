@@ -21,6 +21,19 @@
           <div
             class="progress-bar"
             role="progressbar"
+            style="width: 70%"
+            aria-valuenow="70"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </li>
+      <li>
+        Git
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
             style="width: 60%"
             aria-valuenow="60"
             aria-valuemin="0"
@@ -42,33 +55,7 @@
         </div>
       </li>
       <li>
-        Node.js
-        <div class="progress">
-          <div
-            class="progress-bar"
-            role="progressbar"
-            style="width: 50%"
-            aria-valuenow="50"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          ></div>
-        </div>
-      </li>
-      <li>
-        8051 Assembly
-        <div class="progress">
-          <div
-            class="progress-bar"
-            role="progressbar"
-            style="width: 40%"
-            aria-valuenow="40"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          ></div>
-        </div>
-      </li>
-      <li>
-        PHP
+        Express.js
         <div class="progress">
           <div
             class="progress-bar"
@@ -81,7 +68,7 @@
         </div>
       </li>
       <li>
-        Express.js
+        Matlab
         <div class="progress">
           <div
             class="progress-bar"
@@ -94,7 +81,7 @@
         </div>
       </li>
       <li>
-        C++
+        Python
         <div class="progress">
           <div
             class="progress-bar"
@@ -107,13 +94,26 @@
         </div>
       </li>
       <li>
-        Python
+        SQL
         <div class="progress">
           <div
             class="progress-bar"
             role="progressbar"
             style="width: 20%"
             aria-valuenow="20"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </li>
+      <li>
+        C++
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 15%"
+            aria-valuenow="15"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
