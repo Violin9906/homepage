@@ -2,19 +2,9 @@
   <div class="aboutMe">
     <h3>/* ABOUT ME */</h3>
     <ul>
-      <li>中国科学技术大学 化学物理系转自动化系 1710</li>
+      <li>中国科学技术大学 自动化系 1710</li>
       <li>业余天文爱好者</li>
-      <li>
-        <span class="badge badge-dark">
-          <del>Overwatch</del>
-        </span>
-        <span class="badge badge-dark">Minecraft</span>
-        <span class="badge badge-dark">Kerbal Space Program</span>
-        <span class="badge badge-dark">Arknights</span>
-      </li>
-      <li>
-        <span class="badge badge-dark">SOLO</span>
-      </li>
+      <li>喜欢前端开发、机器人、嵌入式</li>
     </ul>
   </div>
 </template>
