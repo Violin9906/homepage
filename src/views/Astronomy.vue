@@ -41,13 +41,9 @@
     </div>
 
     <div class="section">
-      <h3>/* ARTICLES */</h3>
-    </div>
-
-    <div class="section">
       <h3>/* LINKS */</h3>
       <ul>
-        <li><a href="//www.ustcaaa.club">中国科大天文爱好者协会</a></li>
+        <li><a href="//www.ustcaaa.club" style="color:#cccccc"><del>中国科大天文爱好者协会</del></a></li>
         <li><a href="//zhuanlan.zhihu.com/c_1085863683573288960">我的知乎专栏</a></li>
       </ul>
     </div>

@@ -5,6 +5,8 @@
       |
       <a href="https://violin9906.github.io/blog/">Blog</a>
       |
+      <router-link to="/lab">Lab</router-link>
+      |
       <router-link to="/astronomy">Astronomy</router-link>
       |
       <router-link to="/contact">Contact</router-link>
