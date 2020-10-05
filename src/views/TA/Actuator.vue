@@ -1,6 +1,7 @@
 <template>
   <div class="actuator">
     <h3>执行器技术</h3>
+    <p>(010197.01)</p>
     <div class="section">
       <h3>/* RESOURCES */</h3>
       <ul>
