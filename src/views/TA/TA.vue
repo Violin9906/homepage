@@ -6,7 +6,7 @@
       <h3>/* LIST */</h3>
       <ul>
         <li><a href="#/ta/c">2019秋：计算机程序设计A 主讲：王嵩</a></li>
-        <li><a href="#/ta/actuator">2020秋：执行器技术 主讲：尚伟伟</a></li>
+        <li><a href="#/ta/actuator">2020秋：执行器技术 主讲：尚伟伟 王大欣</a></li>
       </ul>
     </div>
     <router-view/>
