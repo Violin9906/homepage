@@ -6,7 +6,7 @@
       <h3>/* RESOURCES */</h3>
       <ul>
         <li><a href="http://staff.ustc.edu.cn/~wwshang/files/Download/Actuator_Technology.zip">下载讲义</a></li>
-        <li><a href="https://docs.qq.com/sheet/DYnFFYXpTdHhDWlJ6?createTS=1601867968830&templateId=20001&tab=BB08J2">【腾讯文档】2020秋执行器技术作业分组</a></li>
+        <li><a href="https://docs.qq.com/sheet/DYnFFYXpTdHhDWlJ6?createTS=1601867968830&templateId=20001&tab=BB08J2">2020秋执行器技术作业分组</a></li>
       </ul>
     </div>
     <div class="section">
@@ -14,6 +14,9 @@
     </div>
     <div class="section">
       <h3>/* LINKS */</h3>
+      <ul>
+        <li><a href="https://docs.qq.com/sheet/DYlpIc1JpUVhIa29I">2020秋执行器技术平时成绩登记（TA Only）</a></li>
+      </ul>
     </div>
   </div>
 </template>
