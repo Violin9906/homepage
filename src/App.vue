@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/" exact>Home</router-link>
       |
       <a href="https://violin9906.github.io/blog/">Blog</a>
       |
       <router-link to="/lab">Lab</router-link>
+      |
+      <router-link to="/ta">TA</router-link>
       |
       <router-link to="/astronomy">Astronomy</router-link>
       |
@@ -98,7 +100,7 @@
     font-size: 22px;
     color: #1e2d4c;
 
-    &.router-link-exact-active {
+    &.router-link-active {
       color: #6699ff;
     }
   }

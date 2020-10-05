@@ -28,6 +28,21 @@ export default new Router({
       component: () => import(/* webpackChunkName: "lab" */ './views/Lab.vue')
     },
     {
+      path: '/ta',
+      name: 'ta',
+      component: () => import(/* webpackChunkName: "ta" */ './views/TA/TA.vue'),
+      children: [
+        {
+          path: 'c',
+          component: () => import(/* webpackChunkName: "c" */ './views/TA/C.vue')
+        },
+        {
+          path: 'actuator',
+          component: () => import(/* webpackChunkName: "Actuator" */ './views/TA/Actuator.vue')
+        }
+      ]
+    },
+    {
       path: '*',
       name: 'notFound',
       component: NotFound

@@ -1,5 +1,6 @@
 <template>
   <div class="lab">
+    <h2>实验室工作</h2>
     <hr/>
     <div class="section">
       <h3>/* RECRUIT */</h3>
