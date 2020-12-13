@@ -101,11 +101,6 @@
       <h3>/* LINKS */</h3>
       <ul>
         <li><a href="http://ai.ustc.edu.cn">中国科大多智能体系统实验室</a></li>
-        <li>
-          <a href="//ustc-violin.coding.net/p/ingenioushands"
-          >智能多指灵巧手项目</a
-          >
-        </li>
       </ul>
     </div>
   </div>
