@@ -1,21 +1,21 @@
 <template>
-  <div class="ta">
-    <h2>助教工作</h2>
-    <hr/>
+  <div class="actuator">
+    <h3>微机原理与嵌入式系统</h3>
+    <p>(210076.10)</p>
     <div class="section">
-      <h3>/* LIST */</h3>
-      <ul>
-        <li><a href="#/ta/c">2019秋：计算机程序设计A 主讲：王嵩</a></li>
-        <li><a href="#/ta/actuator">2020秋：执行器技术 主讲：尚伟伟 王大欣</a></li>
-        <li><a href="#/ta/mcuprinciple">2021春：微机原理与嵌入式系统 主讲：王嵩</a></li>
-      </ul>
+      <h3>/* RESOURCES */</h3>
     </div>
-    <router-view/>
+    <div class="section">
+      <h3>/* FAQ */</h3>
+    </div>
+    <div class="section">
+      <h3>/* LINKS */</h3>
+    </div>
   </div>
 </template>
 
 <style scoped lang="less">
-.ta {
+.actuator {
   h2 {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
   }
@@ -48,5 +48,10 @@
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     margin: 20px 10px;
   }
+}
+.qa {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 150%;
+  font-weight: bolder;
 }
 </style>

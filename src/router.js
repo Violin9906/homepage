@@ -39,6 +39,10 @@ export default new Router({
         {
           path: 'actuator',
           component: () => import(/* webpackChunkName: "Actuator" */ './views/TA/Actuator.vue')
+        },
+        {
+          path: 'mcuprinciple',
+          component: () => import(/* webpackChunkName: "Actuator" */ './views/TA/Mcuprinciple.vue')
         }
       ]
     },

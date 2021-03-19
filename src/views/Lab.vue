@@ -77,6 +77,12 @@
       <ul>
         <li>
           <a
+            href="http://home.ustc.edu.cn/~violinwang/lab/presentations/MPC20201227.pdf"
+          >模型预测控制简介</a
+          >
+        </li>
+        <li>
+          <a
             href="http://home.ustc.edu.cn/~violinwang/lab/presentations/TSC0716.pdf"
           >过渡状态聚类(TSC)算法实现轨迹分段</a
           >
